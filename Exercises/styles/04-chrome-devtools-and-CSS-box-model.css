@@ -1,0 +1,135 @@
+.uber-button {
+  background-color: black;
+  color: white;
+  border-style: solid;
+  font-size: 16px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 22px;
+  padding-right: 22px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.uber-button:hover {
+  opacity: 0.8;
+}
+
+.amazon-button {
+  background-color: rgb(255, 216, 20);
+  color: black;
+  border: none;
+  font-size: 16px;
+  border-radius: 21px;
+  cursor: pointer;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 55px;
+  padding-right: 55px;
+  transition: background-color 0.15s;
+}
+
+.amazon-button:hover {
+  background-color: rgb(249, 209, 9);
+}
+
+.github-button {
+  background-color: rgb(46, 164, 79);
+  color: white;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 31px;
+  padding-right: 31px;
+  transition: box-shadow 0.25s;
+}
+
+.github-button:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.bootstrap-start-button {
+  background-color: rgb(121, 82, 179);
+  color: white;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-left: 25px;
+  padding-right: 25px;
+  transition: background-color 0.15s;
+}
+
+.bootstrap-start-button:hover {
+  background-color: rgb(109, 60, 182);
+}
+
+.bootstrap-download-button {
+  background-color: white;
+  color: rgb(108, 117, 125);
+  border-style: solid;
+  border-color: rgb(108, 117, 125);
+  border-width: 1px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 27px;
+  padding-right: 27px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+  margin-left: 8px;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.bootstrap-download-button:hover {
+  background-color: rgb(108, 117, 125);
+  color: white;
+}
+
+.linkedin-apply-button {
+  background-color: rgb(10, 102, 194);
+  color: white;
+  border: none;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-left: 32px;
+  padding-right: 32px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 28px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.linkedin-apply-button:hover {
+  background-color: rgb(3, 90, 176);
+}
+
+.linkedin-save-button {
+  background-color: white;
+  color: rgb(10, 102, 194);
+  border-color: rgb(10, 102, 194);
+  border-style: solid;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 28px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.linkedin-save-button:hover {
+  background-color: rgb(213, 228, 244);
+  border-width: 3px;
+}

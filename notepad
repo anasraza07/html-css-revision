@@ -1,0 +1,64 @@
+LESSON 1: HTML Basics
+What is HTML?
+(HyperText Markup Language) = tool we use to create websites
+HTML = giving instructions to a computer
+Syntax = rules for writing code or it is a grammer (for code)
+<a> = anchor element, an anchor is basically a link to another websites
+HTML Attribute = modifies how an element behaves
+Extra spaces are ignored (in HTML)
+Extra new lines are also ignored (in HTML)
+Generally in html and css we use 2 spaces per indent
+
+LESSON 2: CSS Basics
+CSS (Cascading Style Sheets) = change the appearence of HTML elements
+CSS Selector = which elements we are targeting
+General Technique:
+1. Create element with HTML
+2. Style with CSS one-by-one
+Space (around an element) = margin
+The trick to getting the rounded buttons is we have to set the border radius to half the height or the width whichever is lower
+
+LESSON 03: HOVERS, TRANSITIONS, SHADOWS
+pseudo-class = it basically adds extra styles in a certain situation
+opacity = used to fade out an element (1 to 0 => going to fade out)
+transition property takes 2 values: what we want to transition, and how long this transition will take
+Usually a good transition duration is somehting like 0.15s (seconds)
+Make sure to put the transition property always in sort of base CSS
+box-shadow takes 4 values: horizontal right , vertical down, blur, color 
+Usually shadows are kind of a darker shade of whatever they are covering   
+shadows are best when they are very subtle, it should not be too noticeable
+
+LESSON 04: Chrome devTools and CSS box model
+margin = first part of the box model i.e. spacing on the outside of the element
+padding = second part of the box model i.e. spacing on the inside of the element
+setting width and height of button is not a good idea, by default button actually adjusts the size automatically based on the content
+so using padding is better alternative for height and width
+CSS Box Model
+- how much space an element takes up
+- how far it is away from other elements
+By default the browser tries to align our buttons based on the text
+
+LESSON 05: Text styles
+so website by default use the font called Times New Roman
+HTML entity = lets us type out some special characters, for example 'dot' or 'checkmark'
+<p> by default, come with margin at the top and bottom 
+CSS Specificity = The selector that's more specific has higher priority
+class name selector > element name selector
+Text element = a element that is inside a line of text and then they modify that part of the text
+span element is the most generic text element, it has no default styles we can style it ourselves and give it any style we want
+NOTE: Block-level elements (e.g., <p>, <div>) by default respect margins and padding, creating space around them. Inline elements (e.g., <span>, <a>) do not create line breaks and do not respect top and bottom margins or padding.
+
+LESSON 06: HTML Structure
+<!DOCTYPE html> =  this line tells a browser to use modern version of html
+Every file has one and only one html element and <html> = web page, this element is designed for nesting to contain one head and one body element 
+So head and body elements are also designed for nesting or to have elements inside
+<body> = contains all the elements that are visible on the page
+<head> = contains all the elements that are not visible on the page
+The really useful feature we get by following the structure is tha ability to automatically reload our page whenever we change our code using the extension 'live server'
+void elements = elements that don't need a closing tag for e.g. <link> element
+Filepaths: styles/buttons.css = in this filepath '/' means we are going into the styles folder
+Features we get from following this HTML structure:
+1. <title>  
+2. Live server
+3. Link CSS files
+4. Add new fonts and more

@@ -1,0 +1,78 @@
+.tahoma-font {
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.deal-message {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 23px;
+  margin-top: 0;
+  margin-bottom: 6px;
+}
+
+.sales-end {
+  margin-top: 0;
+  color: rgb(222, 0, 0);
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.course-name {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.course-level {
+  margin-top: 0;
+  color: gray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 20px;
+}
+
+.course-description {
+  margin-top: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 300px;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+button {
+  margin-top: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(0, 154, 0);
+  color: white;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 18px;
+  padding-right: 18px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.shopping {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.apple-work {
+  margin-top: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.learn-more {
+  margin-top: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: rgb(35, 165, 246);
+}

@@ -1,0 +1,13 @@
+p{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+.model {
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.online-order{
+  font-size: 20px;
+  margin-top: 0;
+}
