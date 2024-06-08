@@ -62,3 +62,49 @@ Features we get from following this HTML structure:
 2. Live server
 3. Link CSS files
 4. Add new fonts and more
+
+LESSON 07: Images and Text Boxes
+when we set the width, height will also adjust so that the image has the same dimensions (it keeps the same shape)
+object-fit = img element has this property of its own which determines what happen is the size doesnt match the images dimensions or shape
+We can adjust which part of the image that we see using another property called object-position
+'object-fit: cover' = this tells the image to cover the full given area and it also going to keep its shape
+'object-fit: contain' = this property shrinks the area until it is contained in that given area
+
+LESSON 08: CSS Display Property
+in HTML there are 3 types of elements
+1. block element = takes up the entire line (<p> by default is a block element), so this is how block elements work regardless of how much space they actually take up they take up the entire line, they're forced to be on their own line
+2. inline-block element = only takes up as much space as needed (<img> and <input> element)
+3. inline element = they are basically just text elements, they appear within a line of text (<strong> element) 
+
+LESSON 09: THE DIV ELEMENT
+<div> stands for division, it is just a box, also it is a block element
+The key feature of a div is that it can contain any other elements inside, we can put <p> <img> as well as other divs
+<div> = containers and containers are so useful for making complex websites
+The div is simply just drawing a box around the content inside
+Containers are so useful bcuz block elements take up the entire line in their container
+NOTE: In HTML, block-level elements like div will not render visibly if they have no content and no height, if the div is empty and has no height specified, it will collapse to zero height and might not be visible, if the div is inside a parent element with constraints (like zero height), it might not be visible.
+display: block causes elements to take up the entire line, so they can't be centered
+
+LESSON 10: Nested Layouts Technique
+images by default overflow, they keep their original size and that causes them to overflow
+To get image fit inside their container or inside the column grid, we have to set width to 100%
+font-family: Roboto, 'Arial' = this syntax with a comma is called font stack, it lets us setup a backup font
+
+LESSON 11: CSS Grid
+We have some problems with inline-Block
+1. first one is that is has some alignment problems
+2. second problem is that it's not vertically aligned
+That's why we use css grid to create perfectly aligned horizontal layouts
+Inline styles = writing our css inside a line of html
+What is a grid?
+A grid is a layout that has rows and columns
+1 by 2 grid = 1 rows, 2 columns
+To create grid we need two steps, first step to set the display property and the second step is we need to set how many columns our grid has
+Few characteristics of grid:
+1. when <div> is inside a grid, it doesnt take up the entire line, instead it only takes up the entire column
+2. there is no extra space between two elements unlike with display inline-block
+3. when we add more elements this make the div (inside grid) taller but all divs (inside grid) are vertically aligned
+Grids maintain alignment much better
+So whenever we have more elements than columns we have, grid starts to wrap around and create new rows
+fr is special value in grid that stands for free space, so 1fr tells the columns to take up the remaining amount of space and number in front of it '1' tells us relatively how much of the remaining space that column gets, this number is sort of like a ratio
+If there are two columns and both of them are one, they will get equal amount of the remaining space

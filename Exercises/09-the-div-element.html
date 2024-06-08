@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Exercise 09- The Div Element</title>
+  <style>
+    p {
+      font-family: Arial, Helvetica, sans-serif;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    .square {
+      height: 100px;
+      width: 100px;
+      background-color: red;
+      margin-bottom: 10px;
+    }
+
+    .green-circle {
+      height: 100px;
+      width: 100px;
+      background-color: green;
+      border-radius: 50px;
+      margin-bottom: 10px;
+    }
+
+    .wrapper {
+      border-width: 1px;
+      border-style: solid;
+      border-color: gray;
+      padding-top: 25px;
+      padding-bottom: 25px;
+      padding-left: 20px;
+      padding-right: 20px;
+      display: inline-block;
+      width: 350px;
+      margin-bottom: 10px;
+    }
+
+    .service {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    button {
+      font-size: 16px;
+    }
+
+    .youtube-music {
+      background-color: rgb(70, 70, 70);
+      padding-top: 25px;
+      padding-bottom: 25px;
+      padding-left: 18px;
+      padding-right: 18px;
+      width: 400px;
+      margin-bottom: 10px;
+    }
+
+    .heading {
+      font-size: 20px;
+      color: white;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+
+    .para {
+      font-size: 18px;
+      color: rgb(175, 175, 175);
+    }
+
+    .tweet-wrapper {
+      display: inline-block;
+      padding-top: 14px;
+      padding-bottom: 14px;
+      padding-left: 15px;
+      padding-right: 15px;
+      box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+
+    .twitter-dp {
+      width: 60px;
+      border-radius: 30px;
+      vertical-align: middle;
+    }
+
+    .twitter-text-box {
+      vertical-align: middle;
+      width: 250px;
+      border: none;
+      font-size: 18px;
+      margin-left: 5px;
+    }
+
+    .tweet-button {
+      vertical-align: middle;
+      background-color: rgb(0, 162, 255);
+      color: white;
+      border: none;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+      font-weight: bold;
+      font-size: 16px;
+      border-radius: 19px;
+      cursor: pointer;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="square"></div>
+
+  <div class="green-circle"></div>
+
+  <div class="wrapper">
+    <p class="service">Satisfied with our service?</p>
+    <button>Yes</button>
+    <button>No</button>
+  </div>
+
+  <div class="youtube-music">
+    <p class="heading">Install Youtube Music</p>
+    <p class="para">Add Youtube Music to your desktop for quick and easy access</p>
+  </div>
+
+  <div class="tweet-wrapper">
+    <img class="twitter-dp" src="../images/cat.jpg" alt="">
+    <input class="twitter-text-box" type="text" placeholder="What's happening?">
+    <button class="tweet-button">Tweet</button>
+  </div>
+</body>
+
+</html>
