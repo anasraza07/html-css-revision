@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Challenge 12 - Flexbox</title>
+  <style>
+    p,
+    div {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+    }
+
+    .navbar {
+      border-width: 1px;
+      border-style: solid;
+      border-color: rgb(161, 161, 161);
+      width: 350px;
+      border-radius: 5px;
+      margin-bottom: 30px;
+    }
+
+    .flexbox {
+      padding-top: 6px;
+      padding-bottom: 6px;
+      padding-left: 15px;
+      padding-right: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .notifications {
+      background-color: rgb(0, 132, 255);
+      color: white;
+      font-weight: bold;
+      font-size: 14px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 12px;
+      padding-right: 12px;
+      border-radius: 13px;
+      cursor: pointer;
+    }
+
+    .header {
+      margin-bottom: 30px;
+      background-color: rgb(144, 80, 182);
+      color: white;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      padding-left: 15px;
+      padding-right: 10px;
+    }
+
+    .home-link {
+      font-weight: bold;
+    }
+
+    .search-box {
+      padding-top: 6px;
+      padding-bottom: 6px;
+      padding-left: 18px;
+      padding-right: 18px;
+      border-radius: 13.5px;
+      border: none;
+      flex: 1;
+      margin-left: 85px;
+      margin-right: 80px;
+      /* font-size: 16px; */
+    }
+
+    .download-button {
+      background-color: transparent;
+      color: white;
+      border-width: 1px;
+      border-color: white;
+      border-style: solid;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      padding-left: 15px;
+      padding-right: 15px;
+      font-size: 16px;
+      border-radius: 2px;
+    }
+
+    .row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 420px;
+      margin-bottom: 15px;
+    }
+
+    .profile-picture {
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+      border-radius: 25px;
+    }
+
+    .info {
+      width: 270px;
+    }
+
+    .name {
+      font-weight: bold;
+    }
+
+    .handle {
+      color: gray;
+      margin-top: 3px;
+      margin-bottom: 3px;
+    }
+
+    .category {
+      color: gray;
+      font-size: 14px;
+    }
+
+    .follow-button {
+      background-color: rgb(0, 115, 255);
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      padding-left: 12px;
+      padding-right: 12px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+
+</head>
+
+<body style="padding-bottom: 500px;">
+  <div class="navbar">
+    <div class="flexbox">
+      <p>Home</p>
+      <p class="notifications">14</p>
+    </div>
+    <div class="flexbox">
+      <p>Notifications</p>
+      <p class="notifications">3</p>
+    </div>
+    <div class="flexbox">
+      <p>Messages</p>
+      <p class="notifications">5</p>
+    </div>
+  </div>
+
+  <div class="header">
+    <div class="home-link">Home</div>
+    <input class="search-box" type="text" placeholder="Search">
+    <button class="download-button">Download</button>
+  </div>
+
+  
+  <div class="row">
+    <img class="profile-picture" src="../images/cats/cat.jpg" alt="">
+    <div class="info">
+      <p class="name">oliver</p>
+      <p class="handle">the cat</p>
+      <p class="category">Popular</p>
+    </div>
+    <button class="follow-button">Follow</button>
+  </div>
+
+  <div class="row">
+    <img class="profile-picture" src="../images/cats/cat-02.jpg" alt="">
+    <div class="info">
+      <p class="name">Mimi</p>
+      <p class="handle">Sleepy Cat</p>
+      <p class="category">Popular</p>
+    </div>
+    <button class="follow-button">Follow</button>
+  </div>
+
+  <div class="row">
+    <img class="profile-picture" src="../images/cats/cat-03.jpg" alt="">
+    <div class="info">
+      <p class="name">Rex</p>
+      <p class="handle">Happy Bulldog</p>
+      <p class="category">Popular</p>
+    </div>
+    <button class="follow-button">Follow</button>
+  </div>
+</body>
+
+</html>

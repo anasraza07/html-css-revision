@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Exercise 11 - Flexbox</title>
+  <style>
+    .flex-container {
+      display: flex;
+    }
+
+    .one {
+      width: 200px;
+    }
+
+    .seventy-five {
+      width: 75px;
+    }
+
+    .lightblue {
+      background-color: lightblue;
+    }
+
+    .lightpink {
+      background-color: lightpink;
+    }
+
+    .margin-top {
+      margin-top: 30px;
+    }
+
+    .fifty {
+      width: 50px;
+    }
+
+    .flex-one {
+      flex: 1;
+    }
+
+    .evenly-spread {
+      justify-content: space-between;
+    }
+
+    .h-50{
+      height: 50px;
+    }
+
+    .b-gray{
+      border-width: 1px;
+      border-style: solid;
+    }
+
+    .v-center{
+      align-items: center;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="flex-container">
+    <div class="one lightblue">200px</div>
+    <div class="two lightpink">75px</div>
+  </div>
+
+  <div class="flex-container margin-top">
+    <div class="fifty lightblue">item1</div>
+    <div class="flex-one lightpink">item2</div>
+    <div class="seventy-five lightblue">item3</div>
+  </div>
+
+  <div class="flex-container margin-top evenly-spread">
+    <div class="lightpink">item1</div>
+    <div class="lightpink">item2</div>
+    <div class="lightpink">item3</div>
+    <div class="lightpink">item4</div>
+  </div>
+
+  <div class="flex-container margin-top evenly-spread h-50 b-gray v-center">
+    <div class="lightpink">item1</div>
+    <div class="lightpink">item2</div>
+  </div>
+</body>
+
+</html>

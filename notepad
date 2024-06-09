@@ -108,3 +108,21 @@ Grids maintain alignment much better
 So whenever we have more elements than columns we have, grid starts to wrap around and create new rows
 fr is special value in grid that stands for free space, so 1fr tells the columns to take up the remaining amount of space and number in front of it '1' tells us relatively how much of the remaining space that column gets, this number is sort of like a ratio
 If there are two columns and both of them are one, they will get equal amount of the remaining space
+
+LESSON 12: Flexbox
+Flexbox is similar to CSS Grid but its more flexible, it is an another way to create horizontal layouts while maintaining alignment
+'flex: 1' is the flexbox equivalent to 1fr in grid
+'flex: 2' is the flexbox equivalent to 2fr in grid
+The layout is more rigid (for Grid), while in flexbox the elements take their width along with them if they move around and that causes us to have flexible layouts depending on how many elements we have and what order they are in
+Grid = rigid layout
+Flexbox = flexible layout
+Flexbox vs Grid: Which one to use??
+We could create horizontal layouts with grid but when layout actually changes that would be a great situation to use flexbox instead of grid
+To change elements into how they are aligned horizontally = 'justify-content'
+'align-items' = determines how the elements are aligned vertically in flexbox (default value is stretch)
+The body element has 8 pixels of margin on every side by default
+'max-width: 300px' = this property says that the width can be less than 300 pixels but as soon as it grows to be over 300 pixels we are going to limit it to 300
+We just use a flexbox to spread out our content evenly across the horizontal space, so when we focus on content size first, we use a flexbox  
+When we want to create a grid, we use grid
+
+
