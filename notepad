@@ -124,5 +124,6 @@ The body element has 8 pixels of margin on every side by default
 'max-width: 300px' = this property says that the width can be less than 300 pixels but as soon as it grows to be over 300 pixels we are going to limit it to 300
 We just use a flexbox to spread out our content evenly across the horizontal space, so when we focus on content size first, we use a flexbox  
 When we want to create a grid, we use grid
+And for more other situations (for e.g the horizontal layout) we can use either grid or flexbox
 
 
