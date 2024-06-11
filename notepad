@@ -89,6 +89,8 @@ LESSON 10: Nested Layouts Technique
 images by default overflow, they keep their original size and that causes them to overflow
 To get image fit inside their container or inside the column grid, we have to set width to 100%
 font-family: Roboto, 'Arial' = this syntax with a comma is called font stack, it lets us setup a backup font
+vertical layout = columns; we create mostly with <div>s (block element)
+horizontal layout = rows; we create mostly with flexbox or grid
 
 LESSON 11: CSS Grid
 We have some problems with inline-Block
@@ -107,7 +109,7 @@ Few characteristics of grid:
 Grids maintain alignment much better
 So whenever we have more elements than columns we have, grid starts to wrap around and create new rows
 fr is special value in grid that stands for free space, so 1fr tells the columns to take up the remaining amount of space and number in front of it '1' tells us relatively how much of the remaining space that column gets, this number is sort of like a ratio
-If there are two columns and both of them are one, they will get equal amount of the remaining space
+If there are two columns and both of them are 1fr, they will get equal amount of the remaining space
 
 LESSON 12: Flexbox
 Flexbox is similar to CSS Grid but its more flexible, it is an another way to create horizontal layouts while maintaining alignment
@@ -126,4 +128,11 @@ We just use a flexbox to spread out our content evenly across the horizontal spa
 When we want to create a grid, we use grid
 And for more other situations (for e.g the horizontal layout) we can use either grid or flexbox
 
+LESSON 13: Nested Flexbox
+Flexbox doesn't actually go down 2 layers, it only affects elements on the first layer
+Weird behavior of flexbox:
+If we resize our browser and make it smaller, flexbox start shrinking the items inside bcuz flexbox is flexible
+So flexbox has a special property to prevent certain items from shrinking and then it keeps the widht of flexbox and doesnt shrink
+'flex-shrink: 0;' = dont shrink
+'width: 0;' = shrink
 
