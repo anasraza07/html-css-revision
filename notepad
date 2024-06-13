@@ -136,3 +136,17 @@ So flexbox has a special property to prevent certain items from shrinking and th
 'flex-shrink: 0;' = dont shrink
 'width: 0;' = shrink
 
+LESSON 14: CSS Positions
+position helps us do things like keep the header or sidebar at top of the page while we scroll. Whenever we see an element on top of another element that's using CSS position
+CSS position adds another dimension to our page
+'position: static' is the default position, its the same thing as if you dont have the position at all
+'position: fixed' =  it allows us to stick an element to the top of the page while we scroll, but when we set position fixed it doesnt take us space on the page anymore its sort of floating above the page now.
+So position property has four more special properties we can use to move that element around these are top, left, right
+The way these works is that they make the element 'x' pixels from the top or right or left of our browser window
+A special feature of these properties is that if we set it in opposite directions (like left and right or top and bottom), the element will stretch
+Instead of using bottom because remember the bottom can resize we can simply use height and width, it all depends on the situation
+If you want the fixed element to resize with the page, you would use top, left, right and bottom
+If you just wanted to have a specific height or width and dont want it to resize then you use height and width
+When we give position fixed to an element, it starts floating above the page and become transparent so we have to add background color
+With position fixed, the element is no longer on the page anymore and it doesnt have a background color, so we have to set that.
+
