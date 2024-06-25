@@ -7,6 +7,7 @@
 
 .thumbnail-row {
   margin-bottom: 10px;
+  position: relative;
 }
 
 .thumbnail {
@@ -38,4 +39,20 @@
 
 .video-author {
   margin-bottom: 4px;
+}
+
+.video-time {
+  font-family: Roboto, Arial;
+  font-size: 12px;
+  font-weight: 500;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 2px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 8px;
+  right: 5px;
 }

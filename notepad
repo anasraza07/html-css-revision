@@ -150,3 +150,24 @@ If you just wanted to have a specific height or width and dont want it to resize
 When we give position fixed to an element, it starts floating above the page and become transparent so we have to add background color
 With position fixed, the element is no longer on the page anymore and it doesnt have a background color, so we have to set that.
 
+LESSON 15: Position Absolute and Relative
+'position: absolute' works the same as fixed but with one key difference
+fixed = the elements are placed in the browser window 
+absolute = the elements are placed on the page
+When we scroll, the browser window is not moving, only the page is moving up and down
+so for position fixed, we are going to put these elements on the browser window, which doesnt move when we scroll
+Generally an element which is written below is going to appear in front of elements that are written above it
+So for that problem 'z-index' property determines which elements appear in front and which elements appear behind, by default z index is zero and an element with higher z index will appear in front of elements with a lower z index, but this rule doesn't apply to position static or elements with the default position.
+Position static will always appear at the back
+The truth is we dont use position absolute very much, however it has another key feature that makes it really useful.
+Whenever a position absolute is inside a position fixed element, its going to be placed relative to that position fixed element so this is the most important feature of position absolute.
+'position: relative' = it displays the element as normal, except if we put position absolute in position relative element, it will position it relative to the element instead of relative to the page 
+<img> element cant be position relative bcuz img elements are not really container, we can't put somehting inside it
+Remember a font weight of 400 is normal, 700 is bold and 500 is 
+Major Skills of HTML/CSS:
+1. Nested Layouts
+2. Display: block / inline-block;
+3. Grid
+4. Flexbox
+5. Position
+NOTE: Inline elements like images often have extra space due to how they align with the text baseline. This space can add extra height to their container. Setting 'display: block;' makes the image a block-level element, which does not leave any space below it, thus aligning it precisely within the container. Adjusting 'vertical-align' to 'top', 'middle', or 'bottom' can eliminate extra space due to baseline alignment. By applying these solutions, you can ensure the div containing the image has the same height as the image itself, without any extra pixels.
