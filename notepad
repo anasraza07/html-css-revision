@@ -24,7 +24,7 @@ opacity = used to fade out an element (1 to 0 => going to fade out)
 transition property takes 2 values: what we want to transition, and how long this transition will take
 Usually a good transition duration is somehting like 0.15s (seconds)
 Make sure to put the transition property always in sort of base CSS
-box-shadow takes 4 values: horizontal right , vertical down, blur, color 
+box-shadow takes 4 values: horizontal right, vertical down, blur, color 
 Usually shadows are kind of a darker shade of whatever they are covering   
 shadows are best when they are very subtle, it should not be too noticeable
 
@@ -171,3 +171,10 @@ Major Skills of HTML/CSS:
 4. Flexbox
 5. Position
 NOTE: Inline elements like images often have extra space due to how they align with the text baseline. This space can add extra height to their container. Setting 'display: block;' makes the image a block-level element, which does not leave any space below it, thus aligning it precisely within the container. Adjusting 'vertical-align' to 'top', 'middle', or 'bottom' can eliminate extra space due to baseline alignment. By applying these solutions, you can ensure the div containing the image has the same height as the image itself, without any extra pixels.
+
+LESSON 16: Finish The Project
+Without any content in the divs, they have a height of zero.
+When we have a space between the two selectors (like this: '.sidebar-link img'), that means we are targeting all images inside all sidebar links only.
+To disable the hover on the '.tooltip' (or any element), we use css property 'pointer-events: none;' this means when our mouse hovers over the tooltip (or any element), its not going to do anything
+'whitespace: nowrap;' = this will prevent the text from wrapping around.
+
