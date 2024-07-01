@@ -178,3 +178,16 @@ When we have a space between the two selectors (like this: '.sidebar-link img'),
 To disable the hover on the '.tooltip' (or any element), we use css property 'pointer-events: none;' this means when our mouse hovers over the tooltip (or any element), its not going to do anything
 'whitespace: nowrap;' = this will prevent the text from wrapping around.
 
+LESSON 17: More CSS Features
+Responsive Design: making the website look as good as possible on every screen size
+'@media (max-width: 600px)' = it means that the CSS will only activate if the screen size is 600px or less. Thats what the max width means.
+CSS Shorthand Properties:
+1. padding: top right bottom left
+2. border: width style color
+Inheritance: means that for certain CSS properties, if we set the property on the outer element, it will get passed down to the inner elements. But inheritance mostly just works with text properties like text-decoration, color, font-weight and font-family. It doesnt affect things like border, padding or margin.
+CSS Specificity: if we set these same style on the same elements, the style that is more specific has higher priority and it will override a more general style.
+Semantic Elements: these elements actually work the same way as a div, except they have/give a special meaning to screen readers, search engines and any other kind of device or robot that is reading our webpage. To have the structure of our webpage recognized correctly in a screen reader, we should actually replace some of our divs with semantic elements.
+Comments in HTML = '<!-- HTML Comment -->'
+Comments in CSS = '/* CSS Comment */'
+
+

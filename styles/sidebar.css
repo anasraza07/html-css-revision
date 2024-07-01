@@ -17,6 +17,22 @@
   align-items: center;
 }
 
+@media (min-width: 1216px) {
+  .sidebar {
+    width: 250px;
+  }
+
+  .sidebar-link {
+    height: 50px;
+    flex-direction: row;
+    justify-content: start;
+  }
+
+  .sidebar-link img {
+    margin: 0 25px;
+  }
+}
+
 .sidebar-link:hover {
   background-color: rgb(235, 235, 235);
 }
@@ -25,8 +41,15 @@
   height: 24px;
 }
 
-.sidebar-link div{
-  font-family: Roboto, Arial;
+.sidebar-link div {
   font-size: 10px;
   margin-top: 5px;
 }
+
+@media (min-width: 1216px) {
+  .sidebar-link div {
+    margin-top: 0px;
+    font-size: 14px;
+  }
+}
+
